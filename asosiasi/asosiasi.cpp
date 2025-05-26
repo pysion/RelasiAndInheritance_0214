@@ -38,3 +38,7 @@ void pasien::tambahDokter(dokter* pDokter) {
     daftar_dokter.push_back(pDokter);
     pDokter->tambahPasien(this);
 }
+
+void dokter::tambahPasien(pasien* pPasien) {
+    daftar_pasien.push_back(pPasien);
+}
