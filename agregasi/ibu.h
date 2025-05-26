@@ -15,3 +15,11 @@ class ibu {
         void tambahkanAnak (anak *);
         void cetakAnak();
 };
+void ibu::tambahAnak(anak * pAnak) {
+    daftar_anak.push_push (pAnak);
+}
+void ibu::cetakAnak() {
+    cout << "Daftar anak dari ibu \"" << this ->nama << "\":\n";
+}
+
+for (auto &a : daftar_anak)
