@@ -12,4 +12,6 @@ class ibu {
         ~ibu() {
             cout << "ibu \"" << nama << "\" tidak ada \n";
         }
-       
+        void tambahkanAnak (anak *);
+        void cetakAnak();
+};
